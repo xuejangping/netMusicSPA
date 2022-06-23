@@ -23,8 +23,9 @@ Vue.prototype.$Toast = Toast
 Vue.prototype.$diy = diy
 
 // 创建axios实例，设置baseURL,并将其挂载到vue原型上,设置基本地址
+// import http from '@/tools/http.js'
 Vue.prototype.$axios = axios.create({
-  baseURL: 'http://localhost:3000'
+  baseURL: 'https://netease-cloud-music-api-ecru-gamma.vercel.app'
   // https://autumnfish.cn'
 })
 
